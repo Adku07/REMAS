@@ -8,6 +8,11 @@
             "email": "akurniantoro123@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
     "scripts": {
         "test": "phpunit"
     },
