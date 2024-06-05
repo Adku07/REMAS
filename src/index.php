@@ -3,7 +3,7 @@
 include 'koneksi.php';
 ?>
 
-<!doctype html>
+<!doctype html
 <php class="no-js" lang="zxx">
     <head>
         <!-- Meta Tags -->
