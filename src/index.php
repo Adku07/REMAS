@@ -14,7 +14,7 @@ include 'koneksi.php';
 		<meta name='copyright' content=''>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<title>Pelatihan - Latih Company</title>
+		<title>Pelatihan - Latih Company</title
 
 				
 		<!-- Favicon -->
