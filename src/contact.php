@@ -7,7 +7,7 @@
 		<meta name="keywords" content="Site keywords here">
 		<meta name="description" content="">
 		<meta name='copyright' content=''>
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
 		
 		<!-- Title -->
 		<title>Pelatihan - Latih Company</title>
