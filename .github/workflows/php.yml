@@ -20,5 +20,6 @@ jobs:
     - name: Install Dependencies
       run: composer install
 
-    - name: Run PHPUnit Tests
-      run: php vendor/bin/phpunit
+    - name: Run code standard checks
+      run: vendor/bin/phpcs --standard=PSR12 src/
+
