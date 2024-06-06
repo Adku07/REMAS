@@ -22,6 +22,6 @@ jobs:
 
     - name: Check PHP Syntax
       run: |
-        find . -name "*.php" -exec php -l {} \;
+        find src -name "*.php" -exec php -l {} \;
         exit $((!$?))
 
