@@ -1,5 +1,5 @@
 <?php
-
+// hallow
 $koneksi = mysqli_connect('localhost', 'root', '', 'pelatihan');
 
 if (!$koneksi){
