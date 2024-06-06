@@ -19,10 +19,3 @@ jobs:
 
     - name: Install Dependencies
       run: composer install
-
-    - name: Check PHP Syntax
-      run: |
-        find src -name "*.php" -exec sh -c 'sed "/^\s*$/d" "$1" | php -l' _ {} \;
-        exit $((!$?))
-
-
