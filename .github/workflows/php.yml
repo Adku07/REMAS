@@ -22,6 +22,7 @@ jobs:
 
     - name: Check PHP Syntax
       run: |
-        find src -name "*.php" -exec php -l {} \;
+        find src -name "*.php" -exec sh -c 'sed "/^\s*$/d" "$1" | php -l' _ {} \;
         exit $((!$?))
+
 
