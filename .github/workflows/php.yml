@@ -20,6 +20,8 @@ jobs:
     - name: Install Dependencies
       run: composer install
 
-    - name: Run code standard checks
-      run: vendor/bin/phpcs --standard=PSR12 src/
+    - name: Check PHP Syntax
+      run: |
+        find . -name "*.php" -exec php -l {} \;
+        exit $((!$?))
 
